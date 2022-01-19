@@ -1,0 +1,39 @@
+body{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+#score{
+    margin-left: 10px;
+}
+
+#time{
+    float: right;
+    margin-right: 30px;
+}
+
+#sketchtodraw{
+    color: red;
+}
+
+p,span{
+    font-size: 25px;
+}
+
+.btn:hover{
+     background-color: green;
+}
+
+canvas{
+    border: 5px solid wheat;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px gold;}
+    to{box-shadow: 1px 1px 38px greenyellow;}
+}
